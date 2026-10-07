@@ -1,0 +1,42 @@
+MORIÁ - Landing page de portas, janelas e materiais de construção
+=====================================================
+
+ESTRUTURA DOS ARQUIVOS
+moria-projeto/
+  index.html          Estrutura e textos da página
+  css/
+    estilo.css        Cores, layout, menu e botões (as cores ficam no começo, em :root)
+  js/
+    config.js         DADOS QUE VOCÊ EDITA: número do WhatsApp e comentários
+    whatsapp.js       Liga os botões "Chamar no WhatsApp" ao número
+    menu.js           Menu fixo, menu do celular e destaque da seção visível
+    comentarios.js    Mostra os comentários e envia novos pelo WhatsApp
+    fundo.js          Fundo animado (janelas de alumínio com reflexo de luz)
+  img/
+    entrada.jpg       Foto principal (topo da página)
+    fachada.jpg       Foto da fachada (seção "A loja")
+  LEIAME.txt          Este arquivo
+
+COMO ABRIR
+Dê dois cliques em index.html. Mantenha as pastas css, js e img ao lado dele.
+
+O QUE CONFERIR ANTES DE PUBLICAR
+1. js/config.js
+   - WHATSAPP: o número veio da placa da loja (99548-4789). O DDD 11 foi presumido: confirme.
+   - COMENTARIOS: são exemplos inventados. Troque pelos reais.
+2. index.html
+   - Seção Produtos: baseada nas fotos; confirme os modelos que a loja realmente vende.
+   - Seção Materiais de construção: a lista é um exemplo; troque pelos itens que a loja realmente vende.
+   - Frases de confiança do topo e seção "Como funciona": confirme com a loja.
+   - Horário de atendimento (seção Contato): é um exemplo.
+3. css/estilo.css
+   - Cores: bloco :root no começo do arquivo.
+4. Fotos: para trocar, substitua os arquivos da pasta img mantendo o mesmo nome.
+
+COMO FUNCIONA O CONTATO
+Todos os botões abrem o WhatsApp da loja. O formulário de comentário também: quem envia
+a mensagem é o cliente, e a loja decide o que entra na lista.
+
+COMO COLOCAR NO AR (grátis)
+- GitHub Pages: suba a pasta em um repositório e ative Pages em Settings.
+- Netlify ou Cloudflare Pages: arraste a pasta moria-projeto para o site.
